@@ -2,35 +2,35 @@ import { Container } from "../ui/Container";
 
 export function ProofOfWork() {
     return (
-        <section id="philosophy" className="py-32 bg-surface/30">
+        <section id="philosophy" className="py-24 bg-surface/30">
             <Container>
                 <div className="text-center md:text-left mb-16">
-                    <h2 className="text-4xl font-heading font-bold mb-4 text-slate-100">Philosophy</h2>
+                    <h2 className="text-4xl font-heading font-bold mb-4 text-slate-100">What I Optimize For</h2>
                     <p className="text-slate-300 max-w-xl">
-                        My work is defined not just by the code I write, but by the operational problems I solve.
+                        I focus on improving how work actually gets done in real systems.
                     </p>
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-8">
                     {[
                         {
-                            title: "Problem First",
-                            desc: "I don't start with a tech stack. I start with the support ticket queue, the training manual friction, and the hardware constraints.",
+                            title: "Reduce Friction",
+                            desc: "I build tools that shorten resolution times for high-frequency tasks.",
                             icon: "01"
                         },
                         {
-                            title: "User Centric",
-                            desc: "My tools are built for the agents on the phone. If it needs a user manual, I've probably failed. Usability is my primary metric.",
+                            title: "Unblock Teammates",
+                            desc: "I remove blockers and clarify systems so issues don’t compound and the support floor keeps moving.",
                             icon: "02"
                         },
                         {
-                            title: "Systems Thinking",
-                            desc: "Software doesn't exist in a vacuum. I build with an understanding of physical cabling, network layers, and operational workflow.",
+                            title: "Operational Leverage",
+                            desc: "I build force multipliers for repetitive work, reducing cognitive load and increasing reliability for the entire team.",
                             icon: "03"
                         }
                     ].map((item, i) => (
                         <div key={i} className="p-8 rounded-2xl bg-background border border-white/5 hover:border-primary/30 transition-colors group relative overflow-hidden">
-                            <div className="absolute top-0 right-0 p-8 opacity-5 text-6xl font-heading font-bold group-hover:opacity-10 transition-opacity">
+                            <div className="absolute top-0 right-0 p-6 opacity-[0.02] text-6xl font-heading font-bold group-hover:opacity-[0.04] transition-opacity">
                                 {item.icon}
                             </div>
                             <h3 className="text-2xl font-bold text-slate-100 mb-4 group-hover:text-primary transition-colors">{item.title}</h3>
