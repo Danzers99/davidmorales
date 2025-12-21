@@ -4,7 +4,7 @@ import { Badge } from "../ui/Badge";
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, Code2, Network, ExternalLink } from 'lucide-react';
 import clsx from 'clsx';
-import netvizVideo from '../../assets/netviztestdemovid.mp4';
+import netvizImg from '../../assets/net-viz-img.png';
 
 export function NetViz() {
     const [isDetailsOpen, setDetailsOpen] = useState(false);
@@ -118,13 +118,10 @@ export function NetViz() {
                     {/* Visual Side */}
                     <div className="flex-1 w-full order-1 lg:order-2">
                         <div className="relative w-full rounded-2xl overflow-hidden border border-white/10 bg-surface shadow-md group">
-                            <video
-                                src={netvizVideo}
+                            <img
+                                src={netvizImg}
+                                alt="NetViz Project Screenshot"
                                 className="w-full h-auto block"
-                                autoPlay
-                                loop
-                                muted
-                                playsInline
                             />
                         </div>
                     </div>
