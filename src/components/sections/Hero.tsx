@@ -39,7 +39,7 @@ export function Hero() {
                                 Email Me <ArrowDown size={18} className="rotate-[-45deg]" />
                             </a>
                             <a
-                                href="/DavidMoralesResumeJuly2025.pdf"
+                                href="/resume.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="px-8 py-4 rounded-lg border border-white/10 text-slate-200 hover:bg-white/5 transition-colors font-medium text-center flex items-center justify-center gap-2"
