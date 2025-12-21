@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#0F172A', // Slate 900
-        surface: '#1E293B',    // Slate 800
+        background: '#131316', // Warm/Neutral Charcoal
+        surface: '#202024',    // Neutral Surface
         primary: '#F97316',    // Electric Orange
         secondary: '#10B981',  // Emerald
         text: {

@@ -58,7 +58,7 @@ export function NetViz() {
                         </div>
 
                         {/* Expandable Technical Details */}
-                        <div className="border border-white/10 rounded-xl overflow-hidden bg-white/5">
+                        <div className="border border-white/10 rounded-xl overflow-hidden">
                             <button
                                 onClick={() => setDetailsOpen(!isDetailsOpen)}
                                 className="w-full flex items-center justify-between p-4 hover:bg-white/5 transition-colors text-left"
