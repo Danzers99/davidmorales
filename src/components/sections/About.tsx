@@ -5,9 +5,9 @@ export function About() {
     return (
         <section id="about" className="py-24 border-t border-white/5">
             <Container className="text-center">
-                <h2 className="text-4xl font-heading font-bold mb-6">Ready to work using systems thinking?</h2>
+                <h2 className="text-4xl font-heading font-bold mb-6">Interested in support operations done well?</h2>
                 <p className="text-xl text-text-secondary max-w-2xl mx-auto mb-12">
-                    I'm currently open to new opportunities to build operational tools that solve real problems.
+                    I focus on L2 support work and operational improvements that reduce friction and escalation.
                 </p>
 
                 <div className="flex justify-center gap-6">

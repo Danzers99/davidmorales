@@ -50,7 +50,7 @@ export function Navbar() {
                         </a>
                     ))}
                     <a
-                        href="/DavidMoralesResumeJuly2025.pdf"
+                        href="/resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sm font-medium text-text-secondary hover:text-primary transition-colors flex items-center gap-1"
@@ -63,7 +63,7 @@ export function Navbar() {
                 {/* Right Action */}
                 <div className="hidden md:block">
                     <a
-                        href="#footer"
+                        href="mailto:dmorales53@hawkmail.hccfl.edu"
                         className="px-4 py-2 rounded-md bg-white text-black font-semibold text-sm hover:bg-gray-200 transition-colors"
                     >
                         Contact
@@ -93,7 +93,7 @@ export function Navbar() {
                         </a>
                     ))}
                     <a
-                        href="/DavidMoralesResumeJuly2025.pdf"
+                        href="/resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-lg font-medium text-text-secondary hover:text-primary flex items-center gap-2"
