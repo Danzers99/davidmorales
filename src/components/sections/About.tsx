@@ -7,7 +7,7 @@ export function About() {
             <Container className="text-center">
                 <h2 className="text-4xl font-heading font-bold mb-6">Interested in support operations done well?</h2>
                 <p className="text-xl text-text-secondary max-w-2xl mx-auto mb-12">
-                    I focus on L2 support work and operational improvements that reduce friction and escalation.
+                    I focus on agent support coordination and operational improvements that reduce friction and escalation.
                 </p>
 
                 <div className="flex justify-center gap-6">

@@ -24,7 +24,7 @@ export function Hero() {
                         </h1>
 
                         <p className="text-2xl md:text-3xl text-slate-200 font-medium mb-6">
-                            Senior Technical Support Specialist & Support Operations.
+                            Agent Support Coordinator at ShyftOff.
                         </p>
 
                         <p className="text-lg text-slate-300 font-normal max-w-2xl mb-10 leading-relaxed">

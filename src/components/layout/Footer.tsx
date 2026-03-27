@@ -10,7 +10,7 @@ export function Footer() {
                         © {new Date().getFullYear()} David Morales. Built with React + Vite.
                     </p>
                     <p className="text-text-secondary/60 text-xs mt-1">
-                        Based in Tampa, FL. Focused on L2 support and support operations.
+                        Based in Tampa, FL. Focused on agent support coordination and operations.
                     </p>
                 </div>
                 <div className="flex gap-6">

@@ -4,15 +4,21 @@ import { Badge } from "../ui/Badge";
 export function Experience() {
     const roles = [
         {
+            company: "ShyftOff",
+            role: "Agent Support Coordinator",
+            period: "Mar 2026 - Present",
+            description: "Coordinating agent support operations and workforce performance."
+        },
+        {
             company: "Mad Mobile",
             role: "Senior Technical Support Specialist",
-            period: "Jun 2025 - Present",
+            period: "Jun 2025 - Mar 2026",
             description: "Technical Support"
         },
         {
             company: "Mad Mobile",
             role: "Support Operations Coordinator",
-            period: "Apr 2024 - Present",
+            period: "Apr 2024 - Mar 2026",
             description: "Blending technical support and support operations to improve platform reliability."
         },
         {
