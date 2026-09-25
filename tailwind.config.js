@@ -9,10 +9,16 @@ export default {
       colors: {
         background: '#131316', // Warm/Neutral Charcoal
         surface: '#202024',    // Neutral Surface
+        // Deep plum brand color; too dark to read on the charcoal background,
+        // so it's used for fills behind light text.
+        brand: {
+          DEFAULT: '#4D1F3B',
+          hover: '#632A4D',
+        },
+        // Light tint of the brand hue for accents, lines and text on dark backgrounds.
         primary: {
-          DEFAULT: '#794EC2', // ShyftOff Purple
-          light: '#A98BE0',   // Purple tint for text on dark backgrounds
-          dark: '#673FAB',    // Hover state
+          DEFAULT: '#D897BF',
+          light: '#D897BF',
         },
         secondary: '#10B981',  // Emerald
         text: {

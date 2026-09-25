@@ -9,7 +9,7 @@ import { About } from './components/sections/About';
 
 function App() {
   return (
-    <div className="min-h-screen bg-background text-text-primary font-sans antialiased selection:bg-primary/30">
+    <div className="min-h-screen bg-background text-text-primary font-sans antialiased selection:bg-brand">
       <Navbar />
       <main>
         <Hero />

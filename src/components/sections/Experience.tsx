@@ -166,7 +166,7 @@ export function Experience() {
                                                     className={clsx(
                                                         "relative rounded-full border-2 transition-all",
                                                         isActive
-                                                            ? "h-5 w-5 bg-primary border-primary shadow-[0_0_16px_rgba(121,78,194,0.7)]"
+                                                            ? "h-5 w-5 bg-brand border-primary shadow-[0_0_16px_rgba(216,151,191,0.5)]"
                                                             : i < active
                                                                 ? "h-3.5 w-3.5 bg-primary/40 border-primary/60 group-hover:bg-primary/70"
                                                                 : "h-3.5 w-3.5 bg-background border-white/30 group-hover:border-primary/60",

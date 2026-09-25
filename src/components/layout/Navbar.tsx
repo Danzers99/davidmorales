@@ -30,7 +30,7 @@ export function Navbar() {
         >
             <Container className="flex items-center justify-between">
                 <a href="#top" className="flex items-center gap-2 group">
-                    <div className="p-2 rounded-lg bg-surface group-hover:bg-primary/20 transition-colors">
+                    <div className="p-2 rounded-lg bg-surface group-hover:bg-brand transition-colors">
                         <Terminal className="w-5 h-5 text-primary-light" />
                     </div>
                     <span className="font-heading font-bold text-xl tracking-tight text-text-primary">

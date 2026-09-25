@@ -15,17 +15,17 @@ export function ProofOfWork() {
                     {[
                         {
                             title: "Reduce Friction",
-                            desc: "I build tools that shorten resolution times for high-frequency tasks.",
+                            desc: "I find the steps that slow agents down, like unclear workflows, knowledge base gaps, and clunky handoffs, and remove them so good work is the easy path.",
                             icon: "01"
                         },
                         {
-                            title: "Unblock Teammates",
-                            desc: "I remove blockers and clarify systems so issues don’t compound and the support floor keeps moving.",
+                            title: "Lead From the Floor",
+                            desc: "I've taken the calls, so I manage with the agent's reality in mind. A process that looks good on paper still has to work eight minutes into a hard call.",
                             icon: "02"
                         },
                         {
                             title: "Operational Leverage",
-                            desc: "I build force multipliers for repetitive work, reducing cognitive load and increasing reliability for the entire team.",
+                            desc: "I build systems that multiply a team's effort: tracking that surfaces risks early, QA that coaches instead of just scoring, and tools that take repetitive work off people's plates.",
                             icon: "03"
                         }
                     ].map((item, i) => (

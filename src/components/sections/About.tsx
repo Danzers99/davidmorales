@@ -7,14 +7,14 @@ export function About() {
             <Container className="text-center">
                 <h2 className="text-4xl font-heading font-bold mb-6">Interested in support operations done well?</h2>
                 <p className="text-xl text-text-secondary max-w-2xl mx-auto mb-12">
-                    I focus on agent support coordination and operational improvements that reduce friction and escalation.
+                    I run support operations that stay ready, measurable, and humane for the agents doing the work.
                 </p>
 
                 <div className="flex justify-center gap-6">
-                    <a href="mailto:dmorales53@hawkmail.hccfl.edu" className="p-4 rounded-full bg-surface hover:bg-primary/20 hover:text-primary-light transition-colors border border-white/10">
+                    <a href="mailto:dmorales53@hawkmail.hccfl.edu" className="p-4 rounded-full bg-surface hover:bg-brand hover:text-primary-light transition-colors border border-white/10">
                         <Mail className="w-6 h-6" />
                     </a>
-                    <a href="https://www.linkedin.com/in/david-m-30a5b4224/" target="_blank" rel="noopener noreferrer" className="p-4 rounded-full bg-surface hover:bg-primary/20 hover:text-primary-light transition-colors border border-white/10">
+                    <a href="https://www.linkedin.com/in/david-m-30a5b4224/" target="_blank" rel="noopener noreferrer" className="p-4 rounded-full bg-surface hover:bg-brand hover:text-primary-light transition-colors border border-white/10">
                         <Linkedin className="w-6 h-6" />
                     </a>
 
