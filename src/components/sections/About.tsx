@@ -7,7 +7,7 @@ export function About() {
             <Container className="text-center">
                 <h2 className="text-4xl font-heading font-bold mb-6">Have a process that's slowing your team down?</h2>
                 <p className="text-xl text-text-secondary max-w-2xl mx-auto mb-12">
-                    I spot the friction, sketch the fix, and turn good ideas into working tools fast, so the agents doing the work spend less time fighting the process.
+                    I spot the friction, sketch the fix, and turn good ideas into working tools fast, so the operation runs smoothly and hits its numbers.
                 </p>
 
                 <div className="flex justify-center gap-6">

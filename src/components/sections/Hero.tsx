@@ -28,7 +28,7 @@ export function Hero() {
                         </p>
 
                         <p className="text-lg text-slate-300 font-normal max-w-2xl mb-10 leading-relaxed">
-                            I run call center operations and build the systems behind them: readiness tracking, QA tooling, and tools that make good work the easy path for agents.
+                            I run call center operations and build the systems behind them: readiness tracking, QA tooling, and tools that keep the operation running without friction.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4">

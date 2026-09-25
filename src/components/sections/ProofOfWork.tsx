@@ -15,12 +15,12 @@ export function ProofOfWork() {
                     {[
                         {
                             title: "Reduce Friction",
-                            desc: "I find the steps that slow agents down, like unclear workflows, knowledge base gaps, and clunky handoffs, and remove them so good work is the easy path.",
+                            desc: "I find what slows the operation down, like unclear workflows, knowledge base gaps, and clunky handoffs, and remove it so the right way is also the easy way.",
                             icon: "01"
                         },
                         {
                             title: "Lead From the Floor",
-                            desc: "I've taken the calls, so I manage with the agent's reality in mind. A process that looks good on paper still has to work eight minutes into a hard call.",
+                            desc: "I've taken the calls, so I know what the job takes and what good looks like. That lets me set clear standards, spot problems early, and make the hard calls on quality when they're needed.",
                             icon: "02"
                         },
                         {
