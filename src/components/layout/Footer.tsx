@@ -14,10 +14,10 @@ export function Footer() {
                     </p>
                 </div>
                 <div className="flex gap-6">
-                    <a href="https://www.linkedin.com/in/david-m-30a5b4224/" target="_blank" rel="noopener noreferrer" className="text-text-secondary hover:text-primary transition-colors text-sm">
+                    <a href="https://www.linkedin.com/in/david-m-30a5b4224/" target="_blank" rel="noopener noreferrer" className="text-text-secondary hover:text-primary-light transition-colors text-sm">
                         <Linkedin size={20} />
                     </a>
-                    <a href="mailto:dmorales53@hawkmail.hccfl.edu" className="text-text-secondary hover:text-primary transition-colors text-sm">
+                    <a href="mailto:dmorales53@hawkmail.hccfl.edu" className="text-text-secondary hover:text-primary-light transition-colors text-sm">
                         <Mail size={20} />
                     </a>
                 </div>

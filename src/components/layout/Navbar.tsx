@@ -31,7 +31,7 @@ export function Navbar() {
             <Container className="flex items-center justify-between">
                 <a href="#top" className="flex items-center gap-2 group">
                     <div className="p-2 rounded-lg bg-surface group-hover:bg-primary/20 transition-colors">
-                        <Terminal className="w-5 h-5 text-primary" />
+                        <Terminal className="w-5 h-5 text-primary-light" />
                     </div>
                     <span className="font-heading font-bold text-xl tracking-tight text-text-primary">
                         David Morales
@@ -44,7 +44,7 @@ export function Navbar() {
                         <a
                             key={link.label}
                             href={link.href}
-                            className="text-sm font-medium text-text-secondary hover:text-primary transition-colors"
+                            className="text-sm font-medium text-text-secondary hover:text-primary-light transition-colors"
                         >
                             {link.label}
                         </a>
@@ -53,7 +53,7 @@ export function Navbar() {
                         href="/resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm font-medium text-text-secondary hover:text-primary transition-colors flex items-center gap-1"
+                        className="text-sm font-medium text-text-secondary hover:text-primary-light transition-colors flex items-center gap-1"
                     >
                         <FileText size={14} />
                         Resume
@@ -86,7 +86,7 @@ export function Navbar() {
                         <a
                             key={link.label}
                             href={link.href}
-                            className="text-lg font-medium text-text-secondary hover:text-primary"
+                            className="text-lg font-medium text-text-secondary hover:text-primary-light"
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
                             {link.label}
@@ -96,7 +96,7 @@ export function Navbar() {
                         href="/resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-lg font-medium text-text-secondary hover:text-primary flex items-center gap-2"
+                        className="text-lg font-medium text-text-secondary hover:text-primary-light flex items-center gap-2"
                         onClick={() => setIsMobileMenuOpen(false)}
                     >
                         <FileText size={18} />

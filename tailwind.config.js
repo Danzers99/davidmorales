@@ -9,7 +9,11 @@ export default {
       colors: {
         background: '#131316', // Warm/Neutral Charcoal
         surface: '#202024',    // Neutral Surface
-        primary: '#F97316',    // Electric Orange
+        primary: {
+          DEFAULT: '#794EC2', // ShyftOff Purple
+          light: '#A98BE0',   // Purple tint for text on dark backgrounds
+          dark: '#673FAB',    // Hover state
+        },
         secondary: '#10B981',  // Emerald
         text: {
           primary: '#F8FAFC',  // Slate 50

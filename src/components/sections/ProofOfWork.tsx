@@ -33,7 +33,7 @@ export function ProofOfWork() {
                             <div className="absolute top-0 right-0 p-6 opacity-[0.02] text-6xl font-heading font-bold group-hover:opacity-[0.04] transition-opacity">
                                 {item.icon}
                             </div>
-                            <h3 className="text-2xl font-bold text-slate-100 mb-4 group-hover:text-primary transition-colors">{item.title}</h3>
+                            <h3 className="text-2xl font-bold text-slate-100 mb-4 group-hover:text-primary-light transition-colors">{item.title}</h3>
                             <p className="text-slate-300 leading-relaxed">{item.desc}</p>
                         </div>
                     ))}

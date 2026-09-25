@@ -129,7 +129,7 @@ export function Experience() {
                                     style={{ gridColumn: `span ${g.span}` }}
                                     className={clsx(
                                         "text-center text-xs font-semibold uppercase tracking-wider pb-2 border-b-2 transition-colors",
-                                        g.company === job.company ? "text-primary border-primary/60" : "text-slate-500 border-white/10"
+                                        g.company === job.company ? "text-primary-light border-primary/60" : "text-slate-500 border-white/10"
                                     )}
                                 >
                                     {g.company}
@@ -166,7 +166,7 @@ export function Experience() {
                                                     className={clsx(
                                                         "relative rounded-full border-2 transition-all",
                                                         isActive
-                                                            ? "h-5 w-5 bg-primary border-primary shadow-[0_0_16px_rgba(249,115,22,0.6)]"
+                                                            ? "h-5 w-5 bg-primary border-primary shadow-[0_0_16px_rgba(121,78,194,0.7)]"
                                                             : i < active
                                                                 ? "h-3.5 w-3.5 bg-primary/40 border-primary/60 group-hover:bg-primary/70"
                                                                 : "h-3.5 w-3.5 bg-background border-white/30 group-hover:border-primary/60",
@@ -176,7 +176,7 @@ export function Experience() {
                                             </span>
                                             <span className={clsx(
                                                 "mt-4 text-xs font-medium transition-colors",
-                                                isActive ? "text-primary" : "text-slate-500"
+                                                isActive ? "text-primary-light" : "text-slate-500"
                                             )}>
                                                 {r.start.split(" ")[1]}
                                             </span>
