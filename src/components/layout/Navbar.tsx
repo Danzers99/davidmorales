@@ -5,8 +5,8 @@ import { Menu, X, Terminal, FileText, ArrowUpRight } from 'lucide-react';
 
 const NAV_LINKS = [
     { label: 'Philosophy', href: '#philosophy' },
-    { label: 'NetViz', href: '#netviz' },
-    { label: 'CRA Scout', href: '#crascout' },
+    { label: 'Projects', href: '#projects' },
+    { label: 'Experience', href: '#experience' },
 ];
 
 export function Navbar() {

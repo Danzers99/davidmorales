@@ -2,8 +2,7 @@ import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { Hero } from './components/sections/Hero';
 import { ProofOfWork } from './components/sections/ProofOfWork';
-import { NetViz } from './components/sections/NetViz';
-import { CRAScout } from './components/sections/CRAScout';
+import { Projects } from './components/sections/Projects';
 import { Experience } from './components/sections/Experience';
 import { About } from './components/sections/About';
 
@@ -14,8 +13,7 @@ function App() {
       <main>
         <Hero />
         <ProofOfWork />
-        <NetViz />
-        <CRAScout />
+        <Projects />
         <Experience />
         <About />
       </main>
