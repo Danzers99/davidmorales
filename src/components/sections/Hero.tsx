@@ -16,7 +16,7 @@ export function Hero() {
                     <div className="flex-1 max-w-4xl">
                         <Badge className="mb-6">
                             <Workflow size={16} className="text-slate-200" />
-                            <span>Operations Meets Engineering</span>
+                            <span>Operations Meets Building</span>
                         </Badge>
 
                         <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 leading-[1.1] text-slate-50">
