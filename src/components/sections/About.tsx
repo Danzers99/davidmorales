@@ -5,9 +5,9 @@ export function About() {
     return (
         <section id="about" className="py-24 border-t border-white/5">
             <Container className="text-center">
-                <h2 className="text-4xl font-heading font-bold mb-6">Interested in support operations done well?</h2>
+                <h2 className="text-4xl font-heading font-bold mb-6">Have a process that's slowing your team down?</h2>
                 <p className="text-xl text-text-secondary max-w-2xl mx-auto mb-12">
-                    I run support operations that stay ready, measurable, and humane for the agents doing the work.
+                    I spot the friction, sketch the fix, and turn good ideas into working tools fast, so the agents doing the work spend less time fighting the process.
                 </p>
 
                 <div className="flex justify-center gap-6">
