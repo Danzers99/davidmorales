@@ -1,6 +1,6 @@
 import { Container } from "../ui/Container";
 import { Badge } from "../ui/Badge";
-import { ArrowDown, Cpu } from 'lucide-react';
+import { ArrowDown, Headset } from 'lucide-react';
 import profilePic from '../../assets/profile.png';
 
 export function Hero() {
@@ -15,8 +15,8 @@ export function Hero() {
                 <div className="flex flex-col lg:flex-row items-center gap-12">
                     <div className="flex-1 max-w-4xl">
                         <Badge className="mb-6">
-                            <Cpu size={16} className="text-slate-200" />
-                            <span>Systems Thinking for Support Operations</span>
+                            <Headset size={16} className="text-slate-200" />
+                            <span>Agent-First Support Operations</span>
                         </Badge>
 
                         <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 leading-[1.1] text-slate-50">
@@ -28,7 +28,7 @@ export function Hero() {
                         </p>
 
                         <p className="text-lg text-slate-300 font-normal max-w-2xl mb-10 leading-relaxed">
-                            I bridge the gap between hardware realities and software solutions by building reliable internal tools that create operational leverage.
+                            I keep call center programs ready and running: catching risks before they reach production, coaching through quality, and building the tools that make good work the easy path for agents.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4">
