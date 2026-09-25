@@ -11,7 +11,7 @@ export function Experience() {
         },
         {
             company: "ShyftOff",
-            role: "Agent Support Coordinator, Production Readiness & QA (Contract)",
+            role: "Agent Support Coordinator",
             period: "Mar 2026 - Jul 2026",
             description: "Built issue-tracking workflows, training materials, and AI-enabled QA and mock-call tools. Supported operational readiness for the NationsBenefits campaign."
         },
