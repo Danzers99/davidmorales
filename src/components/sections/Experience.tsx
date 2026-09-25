@@ -5,33 +5,45 @@ export function Experience() {
     const roles = [
         {
             company: "ShyftOff",
-            role: "Agent Support Coordinator",
-            period: "Mar 2026 - Present",
-            description: "Coordinating agent support operations and workforce performance."
+            role: "Operations Manager",
+            period: "Aug 2026 - Present",
+            description: "Operations management for the PhyNet Dermatology campaign: production readiness, escalation review, root-cause analysis, and quality tracking across 9,400+ interactions."
+        },
+        {
+            company: "ShyftOff",
+            role: "Agent Support Coordinator, Production Readiness & QA (Contract)",
+            period: "Mar 2026 - Jul 2026",
+            description: "Built issue-tracking workflows, training materials, and AI-enabled QA and mock-call tools. Supported operational readiness for the NationsBenefits campaign."
         },
         {
             company: "Mad Mobile",
-            role: "Senior Technical Support Specialist",
+            role: "Senior Technical Support Specialist & Support Operations Coordinator",
             period: "Jun 2025 - Mar 2026",
-            description: "Technical Support"
+            description: "Promoted after two years of meeting SLA targets. Audited case workflows, tracked SLA/KPI metrics, and mentored new agents."
         },
         {
             company: "Mad Mobile",
-            role: "Support Operations Coordinator",
-            period: "Apr 2024 - Mar 2026",
-            description: "Blending technical support and support operations to improve platform reliability."
+            role: "Support Operations Coordinator & Technical Support Specialist",
+            period: "Apr 2024 - Jun 2025",
+            description: "Audited cases, documented workflows, and coordinated escalations. Triaged and resolved CAKE platform issues across support channels."
         },
         {
             company: "Mad Mobile",
             role: "Technical Support Specialist",
-            period: "Oct 2023 - Jun 2025",
-            description: "Technical Support for CAKE restaurant technology platform."
+            period: "Oct 2023 - Apr 2024",
+            description: "Technical support for the CAKE restaurant technology platform."
         },
         {
-            company: "Foundever",
+            company: "Capital One",
             role: "Customer Service Representative",
-            period: "Jul 2022 - Oct 2023",
-            description: "Customer Service and Support."
+            period: "Jan 2023 - Oct 2023",
+            description: "Resolved account and technical issues within established service targets."
+        },
+        {
+            company: "Savvas Learning Company",
+            role: "Technical Support Specialist",
+            period: "Aug 2022 - Dec 2022",
+            description: "Achieved a 95% first-contact resolution rate."
         }
     ];
 

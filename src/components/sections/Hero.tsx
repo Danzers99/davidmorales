@@ -1,7 +1,7 @@
 import { Container } from "../ui/Container";
 import { Badge } from "../ui/Badge";
 import { ArrowDown, Cpu } from 'lucide-react';
-import profilePic from '../../assets/mylinkedinpic.jpg';
+import profilePic from '../../assets/profile.png';
 
 export function Hero() {
     return (
@@ -24,7 +24,7 @@ export function Hero() {
                         </h1>
 
                         <p className="text-2xl md:text-3xl text-slate-200 font-medium mb-6">
-                            Agent Support Coordinator at ShyftOff.
+                            Operations Manager at ShyftOff.
                         </p>
 
                         <p className="text-lg text-slate-300 font-normal max-w-2xl mb-10 leading-relaxed">
@@ -33,7 +33,7 @@ export function Hero() {
 
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a
-                                href="mailto:davidmorales.djm@gmail.com"
+                                href="mailto:dmorales53@hawkmail.hccfl.edu"
                                 className="px-8 py-4 rounded-lg bg-primary text-white font-bold hover:bg-orange-600 transition-colors flex items-center justify-center gap-2"
                             >
                                 Email Me <ArrowDown size={18} className="rotate-[-45deg]" />
