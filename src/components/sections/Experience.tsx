@@ -17,13 +17,13 @@ export function Experience() {
         },
         {
             company: "Mad Mobile",
-            role: "Senior Technical Support Specialist & Support Operations Coordinator",
+            role: "Senior Technical Support Specialist",
             period: "Jun 2025 - Mar 2026",
             description: "Promoted after two years of meeting SLA targets. Audited case workflows, tracked SLA/KPI metrics, and mentored new agents."
         },
         {
             company: "Mad Mobile",
-            role: "Support Operations Coordinator & Technical Support Specialist",
+            role: "Support Operations Coordinator",
             period: "Apr 2024 - Jun 2025",
             description: "Audited cases, documented workflows, and coordinated escalations. Triaged and resolved CAKE platform issues across support channels."
         },
