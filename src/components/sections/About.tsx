@@ -11,7 +11,7 @@ export function About() {
                 </p>
 
                 <div className="flex justify-center gap-6">
-                    <a href="mailto:dmorales53@hawkmail.hccfl.edu" className="p-4 rounded-full bg-surface hover:bg-brand hover:text-primary-light transition-colors border border-white/10">
+                    <a href="mailto:david@heydavidmorales.com" className="p-4 rounded-full bg-surface hover:bg-brand hover:text-primary-light transition-colors border border-white/10">
                         <Mail className="w-6 h-6" />
                     </a>
                     <a href="https://www.linkedin.com/in/david-m-30a5b4224/" target="_blank" rel="noopener noreferrer" className="p-4 rounded-full bg-surface hover:bg-brand hover:text-primary-light transition-colors border border-white/10">

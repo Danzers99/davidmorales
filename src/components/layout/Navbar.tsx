@@ -63,7 +63,7 @@ export function Navbar() {
                 {/* Right Action */}
                 <div className="hidden md:block">
                     <a
-                        href="mailto:dmorales53@hawkmail.hccfl.edu"
+                        href="mailto:david@heydavidmorales.com"
                         className="px-4 py-2 rounded-md bg-white text-black font-semibold text-sm hover:bg-gray-200 transition-colors"
                     >
                         Contact

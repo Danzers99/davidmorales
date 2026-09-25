@@ -33,7 +33,7 @@ export function Hero() {
 
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a
-                                href="mailto:dmorales53@hawkmail.hccfl.edu"
+                                href="mailto:david@heydavidmorales.com"
                                 className="px-8 py-4 rounded-lg bg-brand border border-primary/30 text-white font-bold hover:bg-brand-hover transition-colors flex items-center justify-center gap-2"
                             >
                                 Email Me <ArrowDown size={18} className="rotate-[-45deg]" />
