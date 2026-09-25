@@ -30,22 +30,22 @@ const projects: Project[] = [
         icon: Rocket,
         summary: "A self-serve tracker for agents onboarding onto a call center program. Six yes/no questions place an agent in one of six onboarding phases and show exactly what to do next, so they don't have to ask.",
         tags: ["Built for Agents", "6 Questions, 6 Phases", "No Login Required"],
-        links: [{ label: "Try the Tool", href: "https://shyftpath.pages.dev/", icon: ExternalLink }],
+        links: [{ label: "Internal Tool (Demo on Request)", icon: Code2 }],
         details: [
             { heading: "1. Single-File App", body: <p>One static HTML page with Tailwind and vanilla JavaScript. No build step, so updates ship as fast as the process changes.</p> },
             {
                 heading: "2. Phase Logic", body: (
                     <ul className="list-disc pl-4 space-y-1">
-                        <li><strong>Quiz:</strong> Yes/no answers map to a phase, including sub-states like the navigation meeting.</li>
+                        <li><strong>Quiz:</strong> Yes/no answers map to a phase, including sub-states for steps that run in parallel.</li>
                         <li><strong>Results:</strong> Each phase shows next steps, what's in the agent's control vs. not, and where to get help.</li>
                     </ul>
                 )
             },
-            { heading: "3. Content", body: <p>Full checklist, FAQ, login checklist, and glossary built from the official program roadmap.</p> },
+            { heading: "3. Content", body: <p>Checklist, FAQ, and glossary built from the official program roadmap.</p> },
             { heading: "4. Deployment", body: <p>Static hosting on Cloudflare Pages.</p> }
         ],
         image: shyftpathImg,
-        alt: "ShyftPath onboarding tracker landing page"
+        alt: "ShyftPath agent journey tracker landing page"
     },
     {
         id: "netviz",
